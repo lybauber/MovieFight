@@ -1,15 +1,9 @@
 
 
 
-
-
-
-
-
-
 const createAutoComplete = ({root, renderOption, onOptionSelect, inputValue, fetchData})=> {
     root.innerHTML = `
-    <label><b>Search</b></label>
+    <label><b>Buscar</b></label>
     <input class='input' />
     <div class="dropdown">
         <div class="dropdown-menu">
