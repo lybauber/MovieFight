@@ -1,4 +1,5 @@
 
+//funcion de autocompletar que recibe varios parametros que se destructuraron para poder realizar un función reutilizable.
 
 
 const createAutoComplete = ({root, renderOption, onOptionSelect, inputValue, fetchData})=> {
